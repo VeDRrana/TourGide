@@ -1,0 +1,56 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="MyTextTitle" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">@dimen/margin_medium</item>
+        <item name="android:textSize">@dimen/text_large</item>
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+    </style>
+
+    <style name="MyTextSmall" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:alpha">0.8</item>
+        <item name="android:layout_margin">@dimen/margin_small</item>
+        <item name="android:textSize">@dimen/text_small</item>
+        <item name="android:textColor">@color/colorBlack</item>
+    </style>
+
+    <style name="MyTextTab" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:layout_margin">@dimen/margin_image</item>
+        <item name="android:textSize">@dimen/text_small</item>
+        <item name="android:textColor">@color/colorBlack</item>
+    </style>
+
+    <style name="MyTextNormal" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">@dimen/margin_small</item>
+        <item name="android:lineSpacingExtra">@dimen/line_spacing</item>
+        <item name="android:background">@color/colorPrimaryDark</item>
+        <item name="android:textColor">@color/colorBlack</item>
+        <item name="android:textSize">@dimen/text_medium</item>
+    </style>
+
+    <style name="MyImage" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:layout_width">@dimen/image_height</item>
+        <item name="android:layout_height">@dimen/image_height</item>
+        <item name="android:layout_margin">@dimen/margin_image</item>
+        <item name="android:scaleType">centerCrop</item>
+    </style>
+
+    <style name="MyButton" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:layout_width">@dimen/margin_medium</item>
+        <item name="android:layout_height">@dimen/margin_medium</item>
+        <item name="android:layout_margin">@dimen/margin_small</item>
+    </style>
+
+</resources>

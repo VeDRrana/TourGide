@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context="com.exsample.android.tourgide.MainActivity">
+
+    <TextView
+        android:id="@+id/name"
+        style="@style/MyTextNormal"
+        android:textStyle="bold"
+        tools:text="@string/varazdin" />
+
+    <TextView
+        android:id="@+id/place_text"
+        style="@style/MyTextSmall"
+        android:layout_below="@id/name"
+        tools:text="@string/aqua_text" />
+
+    <ImageView
+        android:id="@+id/place_image_one"
+        style="@style/MyImage"
+        android:layout_below="@id/place_text"
+        android:layout_toLeftOf="@id/place_image_two"
+        android:layout_toStartOf="@id/place_image_two"
+        tools:src="@drawable/aqua_1" />
+
+    <ImageView
+        android:id="@+id/place_image_two"
+        style="@style/MyImage"
+        android:layout_below="@id/place_text"
+        android:layout_centerHorizontal="true"
+        tools:src="@drawable/spancir_1" />
+
+    <ImageView
+        android:id="@+id/place_image_three"
+        style="@style/MyImage"
+        android:layout_below="@id/place_text"
+        android:layout_toEndOf="@id/place_image_two"
+        android:layout_toRightOf="@id/place_image_two"
+        tools:src="@drawable/angels_3" />
+
+</RelativeLayout>
